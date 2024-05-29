@@ -18,3 +18,6 @@ matriz <- stack(corpus)
 # use a função "table" para achar a frequência da tabela
 # <doc>
 freq_matriz <- table(matriz)
+
+# use a função "t" para achar a transposta da matriz
+trans_matriz <- t(freq_matriz)
